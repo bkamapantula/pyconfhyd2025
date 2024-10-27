@@ -1,0 +1,57 @@
+@use 'sass:map';
+
+$colors: (
+  /* The main brand color that defines the website’s identity. Headers, logos, and active navigation links. */
+    'primary': #3498db,
+  /* Complements the primary color and provides contrast. Buttons, section backgrounds, and icons for variation. */
+    'secondary': #2ecc71,
+  /* Draws immediate attention to important elements. Call-to-action (CTA) buttons, alerts, or promotional banners. */
+    'accent': #e67e22,
+  /* The base color, creating a clean backdrop for content. Page background and alternating section colors for layout contrast. */
+    'light_background': #f5f5f5,
+  /* The color for text and icons. Body text, headings, and other content. */
+    'text_light': #fff,
+  'text_dark': #2c3e50
+);
+
+// HTML TAGS
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+// BOOTSTRAP CLASSES
+.bg-primary {
+  background-color: map.get($colors, 'primary') !important;
+  color: map.get($colors, 'text_light') !important;
+}
+
+.bg-secondary {
+  background-color: map.get($colors, 'secondary') !important;
+}
+
+.bg-info {
+  background-color: map.get($colors, 'accent') !important;
+}
+
+.bg-light {
+  background-color: map.get($colors, 'light_background') !important;
+}
+
+.text-light {
+  color: map.get($colors, 'text_light') !important;
+}
+
+.text-dark {
+  color: map.get($colors, 'text_dark') !important;
+}
