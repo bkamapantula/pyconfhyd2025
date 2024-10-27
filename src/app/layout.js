@@ -1,4 +1,3 @@
-import 'bootstrap/scss/bootstrap.scss';
 import './globals.scss';
 
 import { CONFERENCE } from '@/details';

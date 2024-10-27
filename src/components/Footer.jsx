@@ -6,10 +6,10 @@ import { CONFERENCE, SOCIALS } from '@/details';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary">
+    <footer className="bg-primary-gradient text-light px-3">
       <div className="container-fluid">
-        <div className="row justify-content-between align-items-center py-3">
-          <ul className="nav col-md-4">
+        <div className="row justify-content-between align-items-center">
+          <ul className="nav col-md-6 col-12 py-2">
             {SOCIALS.map((item, index) => (
               <Link
                 key={index}
@@ -22,7 +22,7 @@ const Footer = () => {
               </Link>
             ))}
           </ul>
-          <div className="col-md-4 d-flex justify-content-end">
+          <div className="col-md-6 col-12 d-flex justify-content-md-end justify-content-center py-2">
             {CONFERENCE.copyrightTitle}
           </div>
         </div>
