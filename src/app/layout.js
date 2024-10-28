@@ -2,7 +2,7 @@ import './globals.scss';
 
 import { CONFERENCE } from '@/details';
 import Header from '@/components/Header';
-import BootstrapJs from '@/components/BootstrapJS';
+import BootstrapJs from '@/components/BootstrapJs';
 import Footer from '@/components/Footer';
 
 export const metadata = {
