@@ -3,12 +3,19 @@ export const CONFERENCE = {
   description:
     'PyConf Hyderabad 2025 is the regional gathering of Pythonistas and the largest Python Conference in Hyderabad.',
   announcement:
-    'The biggest Python conference in Hyderabad is coming soon – get ready to join us for an incredible experience!',
+    'Hyderabad’s biggest Python conference is on the way! Get ready for an unforgettable experience and stay tuned for updates!',
   copyrightTitle: 'Copyright @ 2025 PyConf Hyderabad',
   volunteerFormUrl: 'https://forms.gle/aceBohpaYLWef4eU9',
   heroBannerUrl: '/images/hero-banner.webp',
   heroBannerAriaLabel: 'PyConf Hyderabad 2022 volunteers picture',
 };
+
+export const NAV_ITEMS = [
+  {
+    name: 'Home',
+    path: '/',
+  },
+];
 
 export const SOCIALS = [
   {
