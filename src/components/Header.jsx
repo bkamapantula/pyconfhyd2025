@@ -12,8 +12,9 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleNavItemClick = (path) => {
-    setActivePage(path);
+  const handleNavItemClick = (item) => {
+    if (item.target === '_blank') return;
+    setActivePage(item.path);
   };
 
   return (
@@ -56,7 +57,8 @@ const Header = () => {
                         : 'hover:bg-gray-700'
                     }`}
                     aria-current={activePage === item.path ? 'page' : undefined}
-                    onClick={() => handleNavItemClick(item.path)}
+                    onClick={() => handleNavItemClick(item)}
+                    target={item.target}
                   >
                     {item.name}
                   </Link>
