@@ -5,13 +5,20 @@ export const CONFERENCE = {
   announcement:
     'Hyderabad’s biggest Python conference is on the way! Get ready for an unforgettable experience and stay tuned for updates!',
   copyrightTitle: 'Copyright @ 2025 PyConf Hyderabad',
-  logoUrl: '/images/logo.png',
+};
+
+export const ASSETS = {
+  navbarLogoUrl: '/images/navbarLogo.svg',
+  navbarLogoAlt: 'PyConf Hyderabad 2025 Python Logo',
+  logoUrl: '/images/logo.svg',
   logoAlt: 'PyConf Hyderabad 2025 Logo',
+  monumentsUrl: '/images/monuments.svg',
+  monumentsSketchUrl: '/images/monumentsSketch.svg',
+  monumentsSketchAlt:
+    'Illustration showcasing various iconic monuments of Hyderabad.',
 };
 
 export const HERO_BANNER = {
-  imageUrl: '/images/hero-banner.webp',
-  imageAlt: 'PyConf Hyderabad 2025 volunteers picture',
   volunteerFormUrl: 'https://forms.gle/aceBohpaYLWef4eU9',
   cfpUrl: 'https://www.papercall.io/pyconfhyd2025',
 };
@@ -29,7 +36,35 @@ export const NAV_ITEMS = [
   },
 ];
 
+export const PAST_EDITIONS = [
+  {
+    year: 2022,
+    url: 'https://pyconf.hydpy.org/2022',
+    ariaLabel: 'PyConf Hyderabad 2022 website',
+  },
+  {
+    year: 2020,
+    url: 'https://pyconf.hydpy.org/2020',
+    ariaLabel: 'PyConf Hyderabad 2020 website',
+  },
+  {
+    year: 2019,
+    url: 'https://pyconf.hydpy.org/2019',
+    ariaLabel: 'PyConf Hyderabad 2019 website',
+  },
+  {
+    year: 2017,
+    url: 'https://pyconf.hydpy.org/2017',
+    ariaLabel: 'PyConf Hyderabad 2017 website',
+  },
+];
+
 export const SOCIALS = [
+  {
+    name: 'Envelope',
+    url: 'mailto:contact@hydpy.org',
+    ariaLabel: "Hyperlink to HydPy's email.",
+  },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/company/pyconf-hyderabad',
