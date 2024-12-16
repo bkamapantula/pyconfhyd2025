@@ -5,7 +5,7 @@ import Icon from '@/components/Icon';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col px-8 items-center justify-center h-[500px] sm:h-[600px]">
+    <section className="flex flex-col mx-8 my-6 items-center justify-center h-[400px] sm:h-[500px]">
       {/*  For SEO */}
       <h1 className="hidden">{CONFERENCE.title}</h1>
       <Image
@@ -15,7 +15,7 @@ const Hero = () => {
         width={600}
         height={201}
       />
-      <p className="my-6 text-center text-gray-600 dark:text-gray-400 md:text-lg lg:text-1xl">
+      <p className="my-6 text-center text-gray-600 dark:text-gray-400 text-lg md:text-xl">
         {CONFERENCE.announcement}
       </p>
       <div className="flex flex-col sm:flex-row">
