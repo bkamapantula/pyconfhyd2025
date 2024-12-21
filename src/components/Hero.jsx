@@ -5,7 +5,7 @@ import Icon from '@/components/Icon';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col mx-8 my-6 items-center justify-center h-[400px] sm:h-[500px]">
+    <section className="flex flex-col mx-8 my-6 items-center justify-center h-[550px] sm:h-[500px]">
       {/*  For SEO */}
       <h1 className="hidden">{CONFERENCE.title}</h1>
       <Image
@@ -17,6 +17,9 @@ const Hero = () => {
       />
       <p className="my-6 text-center text-gray-600 dark:text-gray-400 text-lg md:text-xl">
         {CONFERENCE.announcement}
+      </p>
+      <p className="text-2xl font-bold text-center text-gray-950 dark:text-gray-50 mb-8">
+        {CONFERENCE.dates}
       </p>
       <div className="flex flex-col sm:flex-row">
         <Link
@@ -36,6 +39,12 @@ const Hero = () => {
           </button>
         </Link>
       </div>
+      <Link href="https://forms.gle/d5cg5WpayP9mEfAm9" target="_blank">
+        <button className="inline-flex mt-2 bg-primary-light-700 px-5 py-3 font-medium hover:bg-primary-light-800 text-gray-50 border rounded-lg">
+          <Icon name="HandHoldingHeart" size={20} />
+          <span className="ml-2">INTERESTED IN SPONSORING</span>
+        </button>
+      </Link>
     </section>
   );
 };

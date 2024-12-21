@@ -2,7 +2,13 @@ import Link from 'next/link';
 import React from 'react';
 
 import Icon from '@/components/Icon';
-import { CONFERENCE, SOCIALS, PAST_EDITIONS, ASSETS } from '@/details';
+import {
+  CONFERENCE,
+  SOCIALS,
+  PAST_EDITIONS,
+  PYCON_INDIA_HYDPY_EDITIONS,
+  ASSETS,
+} from '@/details';
 
 const Footer = () => {
   return (
