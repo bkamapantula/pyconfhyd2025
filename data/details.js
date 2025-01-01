@@ -13,15 +13,9 @@ export const ASSETS = {
   navbarLogoAlt: 'PyConf Hyderabad 2025 Python Logo',
   logoUrl: '/images/logo.svg',
   logoAlt: 'PyConf Hyderabad 2025 Logo',
-  monumentsUrl: '/images/monuments.svg',
   monumentsSketchUrl: '/images/monumentsSketch.svg',
   monumentsSketchAlt:
     'Illustration showcasing various iconic monuments of Hyderabad.',
-};
-
-export const HERO_BANNER = {
-  volunteerFormUrl: 'https://forms.gle/aceBohpaYLWef4eU9',
-  cfpUrl: 'https://www.papercall.io/pyconfhyd2025',
 };
 
 export const ABOUT_HYDPY = {
@@ -32,6 +26,12 @@ export const ABOUT_HYDPY = {
   hydPyLogoAlt: 'HydPy Logo',
   hydPyUrl: 'https://www.hydpy.org/',
   hydPyLinkText: 'Dive Into HydPy',
+};
+
+export const KEY_LINKS = {
+  volunteerFormUrl: 'https://forms.gle/aceBohpaYLWef4eU9',
+  cfpUrl: 'https://www.papercall.io/pyconfhyd2025',
+  interestedInSponsoringUrl: 'https://forms.gle/d5cg5WpayP9mEfAm9',
 };
 
 export const NAV_ITEMS = [
@@ -47,28 +47,42 @@ export const NAV_ITEMS = [
   },
 ];
 
-export const PAST_EDITIONS = [
-  {
-    year: 2022,
-    url: 'https://pyconf.hydpy.org/2022',
-    ariaLabel: 'PyConf Hyderabad 2022 website',
-  },
-  {
-    year: 2020,
-    url: 'https://pyconf.hydpy.org/2020',
-    ariaLabel: 'PyConf Hyderabad 2020 website',
-  },
-  {
-    year: 2019,
-    url: 'https://pyconf.hydpy.org/2019',
-    ariaLabel: 'PyConf Hyderabad 2019 website',
-  },
-  {
-    year: 2017,
-    url: 'https://pyconf.hydpy.org/2017',
-    ariaLabel: 'PyConf Hyderabad 2017 website',
-  },
-];
+export const PYCON_INDIA_HYDPY_PAST_EDITIONS = {
+  sectionTitle: 'PyCon India Editions: A Collective Effort Led by HydPy',
+  editions: [
+    {
+      year: 2023,
+      url: 'https://in.pycon.org/2023/',
+      ariaLabel: 'PyCon India 2023 website',
+    },
+  ],
+};
+
+export const PAST_EDITIONS = {
+  sectionTitle: 'Past Editions',
+  editions: [
+    {
+      year: 2022,
+      url: 'https://pyconf.hydpy.org/2022',
+      ariaLabel: 'PyConf Hyderabad 2022 website',
+    },
+    {
+      year: 2020,
+      url: 'https://pyconf.hydpy.org/2020',
+      ariaLabel: 'PyConf Hyderabad 2020 website',
+    },
+    {
+      year: 2019,
+      url: 'https://pyconf.hydpy.org/2019',
+      ariaLabel: 'PyConf Hyderabad 2019 website',
+    },
+    {
+      year: 2017,
+      url: 'https://pyconf.hydpy.org/2017',
+      ariaLabel: 'PyConf Hyderabad 2017 website',
+    },
+  ],
+};
 
 export const SOCIALS = [
   {
@@ -95,5 +109,10 @@ export const SOCIALS = [
     name: 'Instagram',
     url: 'https://www.instagram.com/pyconfhyd',
     ariaLabel: "Hyperlink to PyConf Hyderabad's Instagram page.",
+  },
+  {
+    name: 'Discord',
+    url: 'https://discord.com/invite/C3pnRHMyWJ',
+    ariaLabel: "Hyperlink to PyConf Hyderabad's Discord server.",
   },
 ];
