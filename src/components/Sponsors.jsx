@@ -40,7 +40,10 @@ const SponsorCard = ({ name, description, hyperLink, logoUrl }) => {
 
 const SponsorsSection = () => {
   return (
-    <section className="flex flex-col items-center py-6 w-11/12 lg:w-5/6 mx-auto">
+    <section
+      id="sponsors"
+      className="scroll-mt-20 flex flex-col items-center py-6 w-11/12 lg:w-5/6 mx-auto"
+    >
       <Heading
         tagLevel={2}
         level={1}
@@ -54,14 +57,14 @@ const SponsorsSection = () => {
         </Paragraph>
         <div className="flex flex-col sm:flex-row justify-center my-2">
           <Link
-            href={KEY_LINKS.interestedInSponsoringUrl}
+            href={KEY_LINKS.sponsorshipProspectusUrl}
             target="_blank"
             className="flex justify-center items-center"
             rel="noopener noreferrer"
           >
             <button className="inline-flex mt-2 sm:mr-4 items-center bg-secondary-600 px-5 py-3 font-medium hover:bg-secondary-700 text-gray-50 border rounded-lg">
               <Span className="ml-2">
-                {KEY_LINKS.interestedInSponsoringLabel}
+                {KEY_LINKS.sponsorshipProspectusLabel}
               </Span>
             </button>
           </Link>
