@@ -1,6 +1,5 @@
 const createMDX = require('@next/mdx');
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   // Configure `pageExtensions` to include markdown and MDX files
