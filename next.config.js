@@ -1,4 +1,4 @@
-import createMDX from '@next/mdx';
+const createMDX = require('@next/mdx');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -12,4 +12,4 @@ const withMDX = createMDX({
 });
 
 // Merge MDX config with Next.js config
-export default withMDX(nextConfig);
+module.exports = withMDX(nextConfig);

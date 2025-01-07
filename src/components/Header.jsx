@@ -43,7 +43,7 @@ const Header = ({ themeToggle }) => {
     <header className="bg-gray-50 dark:bg-gray-900 p-4 shadow-lg sticky top-0 z-10">
       <nav className="flex flex-wrap items-center justify-between sm:w-11/12 mx-auto">
         <Link
-          href="#"
+          href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image
