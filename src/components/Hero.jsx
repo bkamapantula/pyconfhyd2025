@@ -32,19 +32,12 @@ const Hero = () => {
         level={3}
         className="text-center font-semibold ml-2 mt-2 text-secondary-600 dark:text-secondary-400"
       >
-        Conference: {CONFERENCE.conferenceDate} | Workshop: {CONFERENCE.workshopDate}
+        Conference: {CONFERENCE.conferenceDate} | Workshop:{' '}
+        {CONFERENCE.workshopDate}
       </Span>
       <Paragraph className="mt-3 mb-6 text-center text-gray-600 dark:text-gray-400">
         {CONFERENCE.announcement}
       </Paragraph>
-      <div className="flex flex-col sm:flex-row">
-        <Link href={KEY_LINKS.cfpUrl} target="_blank" rel="noopener noreferrer">
-          <button className="inline-flex mt-2 items-center bg-primary-700 px-5 py-3 font-medium hover:bg-primary-800 text-gray-50 border rounded-lg">
-            <Icon name="MdCampaign" size={20} />
-            <Span className="ml-2">{KEY_LINKS.cfpLabel}</Span>
-          </button>
-        </Link>
-      </div>
     </section>
   );
 };
