@@ -149,8 +149,26 @@ export const SCHEDULE = {
       ],
       [
         {
+          title: 'Keynote by Bowrna Prabhakaran',
+          time: '03:55 - 04:45 PM',
+          speaker: {
+            name: 'Bowrna Prabhakaran',
+            imgUrl: '/images/speakers/placeholder-2.svg',
+          },
+          location: 'Main Hall',
+        },
+      ],
+      [
+        {
+          title: 'Coffee Break',
+          time: '04:45 - 05:00 PM',
+          location: 'Main Hall',
+        },
+      ],
+      [
+        {
           title: 'Multimodal Agents RAG Workflow',
-          time: '03:55 - 04:25 PM',
+          time: '05:00 - 05:30 PM',
           speaker: {
             name: 'Tarun Jain',
             imgUrl: '/images/speakers/placeholder-2.svg',
@@ -160,27 +178,13 @@ export const SCHEDULE = {
       ],
       [
         {
-          title: 'Coffee Break',
-          time: '04:25 - 04:40 PM',
-          location: 'Main Hall',
-        },
-      ],
-      [
-        {
           title: 'Turn your old laptop to a home server',
-          time: '04:40 - 05:10  PM',
+          time: '05:30 - 06:00 PM',
           speaker: {
             name: 'Akhil Teja',
             imgUrl: '/images/speakers/placeholder-2.svg',
           },
           location: 'Main Hall',
-        },
-      ],
-      [
-        {
-          title: 'TBD',
-          time: '05:10 - 06:00 PM',
-          location: 'Cafeteria',
         },
       ],
       [
